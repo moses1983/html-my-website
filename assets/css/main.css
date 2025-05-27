@@ -3140,5 +3140,33 @@ input, select, textarea {
 					margin: 0;
 					padding: 0;
 				}
+			.social-icons {
+			  list-style: none;
+			  padding: 0;
+			  margin: 0;
+			  display: flex;
+			  gap: 15px;
+			}
+			
+			.social-icons li a {
+			  text-decoration: none;
+			  font-size: 24px;
+			  color: #333;
+			  transition: color 0.3s;
+			}
+			
+			/* Brand Colors on Hover */
+			.social-icons li a.twitter:hover {
+			  color: #1DA1F2; /* Twitter Blue */
+			}
+			
+			.social-icons li a.facebook:hover {
+			  color: #3b5998; /* Facebook Blue */
+			}
+			
+			.social-icons li a.instagram:hover {
+			  color: #E1306C; /* Instagram Pink */
+			}
+
 
 	}
