@@ -3144,9 +3144,9 @@ input, select, textarea {
 			  list-style: none;
 			  padding: 0;
 			  margin: 0;
-			  align: center;
 			  display: flex;
 			  gap: 15px;
+			  justify-content: center;
 			}
 			
 			.social-icons li a {
